@@ -22,7 +22,7 @@ The `Order History Service` implements a CQRS view and subscribes to domain even
 
 == About Sagas
 
-http://microservices.io/patterns/data/saga.html[Sagas] are a mechanism for maintaining data consistency in a microservice architecture.
+Sagas are a mechanism for maintaining data consistency in a microservice architecture.
 A saga is a sequence of transactions, each of which is local to a service.
 
 There are two main ways to coordinate sagas: orchestration and choreography.
@@ -41,7 +41,7 @@ The saga for creating an `Order` consists of the follow steps:
 
 == About Command Query Responsibility Segregation (CQRS)
 
-The http://microservices.io/patterns/data/cqrs.html[CQRS pattern] implements queries that retrieves data from multiple services.
+CQRS pattern implements queries that retrieves data from multiple services.
 It maintains a queryable replica of the data by subscribing to domain events published by the services that own the data.
 
 In this example, the `Order History Service`  maintains a CQRS view in MongoDB by subscribing to domain events published by the `Order Service` and `Customer Service`.
