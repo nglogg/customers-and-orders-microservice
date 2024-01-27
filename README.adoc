@@ -1,10 +1,7 @@
-= An Eventuate Example project
+= An E-commerce MicroServices Example project
 
-image::https://eventuate.io/i/logo.gif[]
 
-This project is part of http://eventuate.io[Eventuate], which is a microservices collaboration platform.
-
-# Eventuate Tram Customers and Orders
+# Customers and Orders
 
 This application demonstrates two key patterns:
 
